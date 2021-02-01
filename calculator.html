@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <link rel="stylesheet" href="assets/css/calculator.css">
+    <meta charset="UTF-8">
+    <title>javaScript</title>
+</head>
+<body>
+<div class="wrapper">
+<span style="color:red">CLICK ON OPERATION</span>
+<div class="signs">
+<span class="sign" id="plus" onclick="showPlus()">addition</span>
+<span class="sign" id="minus" onclick="showMinus()">subtraction</span>
+<span class="sign" id="divide" onclick="showDivide()">division</span>
+<span class="sign" id="times" onclick="showTimes()">multiplication</span>
+</div>
+
+<form>
+    <div id="input">
+<input type="text"  size="15" class="typeBox" id="txt_left">
+<span id="showSign">+</span>
+<input type="text" size="15" class="typeBox" id="txt_right">
+    </div>
+    <div class="btns">
+<input type="button" onclick="justClick()" value="add" id="addBtn" class="btn">
+<input type="button" onclick="justClickI()" value="subtract" id="minusBtn" class="btn">
+<input type="button" onclick="justClickII()" value="divide" id="divideBtn" class="btn">
+<input type="button" onclick="justClickIII()" value="multiply" id="timesBtn" class="btn">
+    </div>
+<div id="show">
+    <input type="text" id="answer">
+    <input type="reset" id="reset">
+</div>
+    <p id="last"></p>
+</form>
+</div>
+<script type="text/javascript" src="assets/js/calculator.js"></script>
+</body>
+</html>

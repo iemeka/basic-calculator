@@ -1,0 +1,29 @@
+.wall{
+	border:0px solid black;
+	height: auto;
+	width: auto;
+	display: inline-block;
+	position: relative;
+	margin:100px 400px;
+}
+
+table{
+	border:1px solid black;
+	font-size: 20px;
+	font-family: helvetica;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+th{
+	padding:8px 30px;
+	font-weight: normal;
+}
+
+#th{
+	background-color: #eee;
+}
+select{
+	text-align: center;
+}
+

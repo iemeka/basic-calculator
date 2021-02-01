@@ -1,0 +1,83 @@
+.wrapper{
+    border:1px solid #000000;
+    margin: auto auto;
+    width: 450px;
+}
+.signs{
+    border:1px solid #000000;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sign{
+    border:1px solid #000000;
+    text-transform: capitalize;
+    margin-right: -5px;
+    padding: 3px 20px;
+    display: inline-block;
+}
+
+.typeBox{
+    height: 20px;
+    margin-bottom: 7px;
+}
+
+
+#input{
+    border:1px solid #000000;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.btns{
+    border:1px solid #000000;
+    text-align: center;
+}
+
+.btn{
+    padding: 2px 20px;
+    font-size:17px ;
+    font-weight: normal;
+    text-transform: capitalize;
+    cursor: pointer;
+    visibility: collapse;
+
+}
+
+
+#show{
+    border:1px solid #000000;
+    display: block;
+    font-size: 15px;
+    min-width: 150px;
+    margin: 10px auto;
+}
+
+#showSign{
+    border:1px solid #ffffff;
+    height: 30px;
+    width: 40px;
+    top:5px;
+    position: relative;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#reset{
+    position: relative;
+    left: 175px;
+    padding: 3px 15px;
+    font-size:17px ;
+    cursor: pointer;
+
+}
+
+#answer{
+    position: relative;
+    left: 35px;
+    height: 20px;
+    min-width: 150px;
+}
